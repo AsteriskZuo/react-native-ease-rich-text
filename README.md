@@ -60,6 +60,14 @@ ref.current?.pushImage(
 );
 ```
 
+3. How to pass text from input component to display component.
+
+```tsx
+// ...
+const list = inputRef.current?.getData();
+displayRef.current?.pushData(list);
+```
+
 ## Contributing
 
 See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the repository and the development workflow.

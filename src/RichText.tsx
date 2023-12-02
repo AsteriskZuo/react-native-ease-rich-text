@@ -19,7 +19,7 @@ export type RichTextRef = {
     source: ImageSourcePropType,
     style?: StyleProp<ImageStyle>
   ) => void;
-  pushData: (data: dataMeta) => void;
+  pushData: (data: dataMeta[]) => void;
   clear: () => void;
 };
 export type RichTextProps = {
@@ -80,8 +80,10 @@ export function useRichText(props: RichTextProps) {
     propsRef.current.clear = () => {
       clearData();
     };
-    propsRef.current.pushData = (data: dataMeta) => {
-      addData(data);
+    propsRef.current.pushData = (list: dataMeta[]) => {
+      for (const data of list) {
+        addData(data);
+      }
     };
   }
   const updateElements = React.useCallback(() => {

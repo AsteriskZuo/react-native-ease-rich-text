@@ -10,12 +10,54 @@ npm install react-native-ease-rich-text
 
 ## Usage
 
-```js
+1. How to use rich text display components.
+
+```tsx
 import { multiply } from 'react-native-ease-rich-text';
 
 // ...
 
-const result = await multiply(3, 7);
+const ref = React.useRef<RichTextRef>({} as RichTextRef);
+<RichText propsRef={ref} />;
+
+// ...
+
+ref.current?.pushText('push text');
+ref.current?.pushImage(require('../assets/1.png'), {
+  width: 20,
+  height: 20,
+});
+```
+
+2. How to use rich text input components.
+
+```tsx
+import { multiply } from 'react-native-ease-rich-text';
+
+// ...
+
+const ref = React.useRef<RichInputRef>({} as RichInputRef);
+<RichInput
+  propsRef={ref}
+  containerStyle={{
+    backgroundColor: '#8fbc8f',
+    width: 300,
+    minHeight: 40,
+  }}
+/>;
+
+// ...
+
+ref.current?.pushText('push text');
+ref.current?.pushImage(
+  {
+    uri: 'https://cdn2.iconfinder.com/data/icons/chinese-new-year/512/gcds-dragon.png',
+  },
+  {
+    width: 20,
+    height: 20,
+  }
+);
 ```
 
 ## Contributing

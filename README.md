@@ -68,6 +68,10 @@ const list = inputRef.current?.getData();
 displayRef.current?.pushData(list);
 ```
 
+## Remark
+
+The current version is not perfect and only supports text and pictures. It will be updated in the future. If you like it or have the structure and ideas, you can help improve it together.
+
 ## Contributing
 
 See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the repository and the development workflow.

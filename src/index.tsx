@@ -20,3 +20,7 @@ const ReactNativeeEaseRichText = NativeModules.ReactNativeeEaseRichText
 export function multiply(a: number, b: number): Promise<number> {
   return ReactNativeeEaseRichText.multiply(a, b);
 }
+
+export * from './RichInput';
+export * from './RichText';
+export * from './types';

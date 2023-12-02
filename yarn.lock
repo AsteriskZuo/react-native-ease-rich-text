@@ -5677,6 +5677,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"escape-string-regexp@npm:2.0.0, escape-string-regexp@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "escape-string-regexp@npm:2.0.0"
+  checksum: 9f8a2d5743677c16e85c810e3024d54f0c8dea6424fad3c79ef6666e81dd0846f7437f5e729dfcdac8981bc9e5294c39b4580814d114076b8d36318f46ae4395
+  languageName: node
+  linkType: hard
+
 "escape-string-regexp@npm:5.0.0, escape-string-regexp@npm:^5.0.0":
   version: 5.0.0
   resolution: "escape-string-regexp@npm:5.0.0"
@@ -5688,13 +5695,6 @@ __metadata:
   version: 1.0.5
   resolution: "escape-string-regexp@npm:1.0.5"
   checksum: 6092fda75c63b110c706b6a9bfde8a612ad595b628f0bd2147eea1d3406723020810e591effc7db1da91d80a71a737a313567c5abb3813e8d9c71f4aa595b410
-  languageName: node
-  linkType: hard
-
-"escape-string-regexp@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "escape-string-regexp@npm:2.0.0"
-  checksum: 9f8a2d5743677c16e85c810e3024d54f0c8dea6424fad3c79ef6666e81dd0846f7437f5e729dfcdac8981bc9e5294c39b4580814d114076b8d36318f46ae4395
   languageName: node
   linkType: hard
 
@@ -7203,7 +7203,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"invariant@npm:^2.2.4":
+"invariant@npm:2.2.4, invariant@npm:^2.2.4":
   version: 2.2.4
   resolution: "invariant@npm:2.2.4"
   dependencies:
@@ -10810,6 +10810,29 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-native-pell-rich-editor@npm:^1.9.0":
+  version: 1.9.0
+  resolution: "react-native-pell-rich-editor@npm:1.9.0"
+  peerDependencies:
+    react-native: ">=0.50.0"
+    react-native-webview: ">=7.5.2"
+  checksum: c3e68e4272435af20713e5cd1fe4827d406a67f294ae3d66fabaa3301b1782bee6809885a68d94f0e54ed80293243305020ad5c70e23d860a4aeef70849c5da3
+  languageName: node
+  linkType: hard
+
+"react-native-webview@npm:^13.6.3":
+  version: 13.6.3
+  resolution: "react-native-webview@npm:13.6.3"
+  dependencies:
+    escape-string-regexp: 2.0.0
+    invariant: 2.2.4
+  peerDependencies:
+    react: "*"
+    react-native: "*"
+  checksum: 3bfe952153ba25ced17b2783f686c26cdfd7d9de0ad3a99b953fc616f1b87624172cc39ebeec3b7c213b781d709a3ae5ea0313b4dce5cb0bbdafcf6a478d64f4
+  languageName: node
+  linkType: hard
+
 "react-native@npm:0.72.7":
   version: 0.72.7
   resolution: "react-native@npm:0.72.7"
@@ -10871,6 +10894,8 @@ __metadata:
     pod-install: ^0.1.0
     react: 18.2.0
     react-native: 0.72.7
+    react-native-pell-rich-editor: ^1.9.0
+    react-native-webview: ^13.6.3
   languageName: unknown
   linkType: soft
 
@@ -10896,12 +10921,16 @@ __metadata:
     react: 18.2.0
     react-native: 0.72.7
     react-native-builder-bob: ^0.20.0
+    react-native-pell-rich-editor: ^1.9.0
+    react-native-webview: ^13.6.3
     release-it: ^15.0.0
     turbo: ^1.10.7
     typescript: ^5.0.2
   peerDependencies:
     react: "*"
     react-native: "*"
+    react-native-pell-rich-editor: ">=1.9.0"
+    react-native-webview: ">=13.6.3"
   languageName: unknown
   linkType: soft
 

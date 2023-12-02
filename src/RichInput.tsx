@@ -145,6 +145,7 @@ export function useRichInput(props: RichInputProps) {
   const clearData = React.useCallback(() => {
     dataRef.current = [];
     // todo: clear editor
+    editorRef.current?.clear();
   }, []);
   const getData = React.useCallback(() => {
     return dataRef.current;

@@ -1,11 +1,12 @@
 {
-  "name": "react-native-ease-rich-text",
+  "name": "@asteriskzuo/react-native-ease-rich-text",
   "version": "0.1.0",
   "description": "Implement rich text components. Including input components and display components.",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
   "types": "lib/typescript/src/index.d.ts",
   "react-native": "src/index",
+  "private": false,
   "source": "src/index",
   "files": [
     "src",

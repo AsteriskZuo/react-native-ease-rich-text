@@ -1,17 +1,17 @@
-# react-nativee-ease-rich-text
+# react-native-ease-rich-text
 
 Implement rich text components. Including input components and display components.
 
 ## Installation
 
 ```sh
-npm install react-nativee-ease-rich-text
+npm install react-native-ease-rich-text
 ```
 
 ## Usage
 
 ```js
-import { multiply } from 'react-nativee-ease-rich-text';
+import { multiply } from 'react-native-ease-rich-text';
 
 // ...
 

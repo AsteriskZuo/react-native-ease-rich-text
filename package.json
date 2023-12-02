@@ -1,5 +1,5 @@
 {
-  "name": "react-nativee-ease-rich-text",
+  "name": "react-native-ease-rich-text",
   "version": "0.1.0",
   "description": "Implement rich text components. Including input components and display components.",
   "main": "lib/commonjs/index",
@@ -26,7 +26,7 @@
     "!**/.*"
   ],
   "scripts": {
-    "example": "yarn workspace react-nativee-ease-rich-text-example",
+    "example": "yarn workspace react-native-ease-rich-text-example",
     "test": "jest",
     "typecheck": "tsc --noEmit",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
@@ -40,13 +40,13 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/AsteriskZuo/react-nativee-ease-rich-text",
+  "repository": "https://github.com/AsteriskZuo/react-native-ease-rich-text",
   "author": "asteriskzuo <zuoyuhsywn@hotmail.com> (https://github.com/AsteriskZuo)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AsteriskZuo/react-nativee-ease-rich-text/issues"
+    "url": "https://github.com/AsteriskZuo/react-native-ease-rich-text/issues"
   },
-  "homepage": "https://github.com/AsteriskZuo/react-nativee-ease-rich-text#readme",
+  "homepage": "https://github.com/AsteriskZuo/react-native-ease-rich-text#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },

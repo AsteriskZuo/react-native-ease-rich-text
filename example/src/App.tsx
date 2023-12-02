@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 import { StyleSheet, View, Text } from 'react-native';
-import { multiply } from 'react-nativee-ease-rich-text';
+import { multiply } from 'react-native-ease-rich-text';
 import { TestRichInput } from './Test';
 
 export default function App() {

@@ -10908,6 +10908,61 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-native-ease-rich-text-example@workspace:example":
+  version: 0.0.0-use.local
+  resolution: "react-native-ease-rich-text-example@workspace:example"
+  dependencies:
+    "@babel/core": ^7.20.0
+    "@babel/preset-env": ^7.20.0
+    "@babel/runtime": ^7.20.0
+    "@react-native/metro-config": ^0.72.11
+    babel-plugin-module-resolver: ^5.0.0
+    metro-react-native-babel-preset: 0.76.8
+    patch-package: ^8.0.0
+    pod-install: ^0.1.0
+    react: 18.2.0
+    react-native: 0.72.7
+    react-native-pell-rich-editor: ^1.9.0
+    react-native-webview: ^13.6.3
+  languageName: unknown
+  linkType: soft
+
+"react-native-ease-rich-text@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "react-native-ease-rich-text@workspace:."
+  dependencies:
+    "@commitlint/config-conventional": ^17.0.2
+    "@evilmartians/lefthook": ^1.5.0
+    "@react-native/eslint-config": ^0.72.2
+    "@release-it/conventional-changelog": ^5.0.0
+    "@types/jest": ^28.1.2
+    "@types/react": ~17.0.21
+    "@types/react-native": 0.70.0
+    commitlint: ^17.0.2
+    del-cli: ^5.0.0
+    eslint: ^8.4.1
+    eslint-config-prettier: ^8.5.0
+    eslint-plugin-prettier: ^4.0.0
+    jest: ^28.1.1
+    patch-package: ^8.0.0
+    pod-install: ^0.1.0
+    prettier: ^2.0.5
+    react: 18.2.0
+    react-native: 0.72.7
+    react-native-builder-bob: ^0.20.0
+    react-native-pell-rich-editor: ^1.9.0
+    react-native-webview: ^13.6.3
+    release-it: ^15.0.0
+    turbo: ^1.10.7
+    typescript: ^5.0.2
+  peerDependencies:
+    react: "*"
+    react-native: "*"
+    react-native-pell-rich-editor: ">=1.9.0"
+    react-native-webview: ">=13.6.3"
+  languageName: unknown
+  linkType: soft
+
 "react-native-pell-rich-editor@npm:^1.9.0":
   version: 1.9.0
   resolution: "react-native-pell-rich-editor@npm:1.9.0"
@@ -10978,61 +11033,6 @@ __metadata:
   checksum: 587490c63bba709347e99edbe29f2a10d5a358e296d214960e066bd803d5a71a49b5e199208cf85cd6f6d3ce5fdbe5134e9480eb268b41b29807c833f7d45a34
   languageName: node
   linkType: hard
-
-"react-nativee-ease-rich-text-example@workspace:example":
-  version: 0.0.0-use.local
-  resolution: "react-nativee-ease-rich-text-example@workspace:example"
-  dependencies:
-    "@babel/core": ^7.20.0
-    "@babel/preset-env": ^7.20.0
-    "@babel/runtime": ^7.20.0
-    "@react-native/metro-config": ^0.72.11
-    babel-plugin-module-resolver: ^5.0.0
-    metro-react-native-babel-preset: 0.76.8
-    patch-package: ^8.0.0
-    pod-install: ^0.1.0
-    react: 18.2.0
-    react-native: 0.72.7
-    react-native-pell-rich-editor: ^1.9.0
-    react-native-webview: ^13.6.3
-  languageName: unknown
-  linkType: soft
-
-"react-nativee-ease-rich-text@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "react-nativee-ease-rich-text@workspace:."
-  dependencies:
-    "@commitlint/config-conventional": ^17.0.2
-    "@evilmartians/lefthook": ^1.5.0
-    "@react-native/eslint-config": ^0.72.2
-    "@release-it/conventional-changelog": ^5.0.0
-    "@types/jest": ^28.1.2
-    "@types/react": ~17.0.21
-    "@types/react-native": 0.70.0
-    commitlint: ^17.0.2
-    del-cli: ^5.0.0
-    eslint: ^8.4.1
-    eslint-config-prettier: ^8.5.0
-    eslint-plugin-prettier: ^4.0.0
-    jest: ^28.1.1
-    patch-package: ^8.0.0
-    pod-install: ^0.1.0
-    prettier: ^2.0.5
-    react: 18.2.0
-    react-native: 0.72.7
-    react-native-builder-bob: ^0.20.0
-    react-native-pell-rich-editor: ^1.9.0
-    react-native-webview: ^13.6.3
-    release-it: ^15.0.0
-    turbo: ^1.10.7
-    typescript: ^5.0.2
-  peerDependencies:
-    react: "*"
-    react-native: "*"
-    react-native-pell-rich-editor: ">=1.9.0"
-    react-native-webview: ">=13.6.3"
-  languageName: unknown
-  linkType: soft
 
 "react-refresh@npm:^0.4.0":
   version: 0.4.3

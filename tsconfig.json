@@ -2,7 +2,7 @@
   "compilerOptions": {
     "rootDir": ".",
     "paths": {
-      "react-nativee-ease-rich-text": ["./src/index"]
+      "react-native-ease-rich-text": ["./src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
